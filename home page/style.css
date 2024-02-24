@@ -1,0 +1,79 @@
+.navbar1,.navbar2,.navbar3,.navbar5{
+    width: 100vw;
+    height: 50px;
+    background-color: darkolivegreen;
+}
+#LogoPic1,#LogoPic2,#LogoPic3,#LogoPic5{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+#search1,#search2,#search3,#search5{
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    height: 25px;
+}
+.default1{
+    border: 2px solid grey;
+    padding: 8px;
+    position: absolute;
+    top: 25%;
+    width: 70%;
+    margin-left: 2%;
+}
+#link1{
+    text-decoration: none;
+}
+.default2{
+    border: 2px solid white;
+    padding: 8px;
+    position: absolute;
+    top: 10%;
+    width: 70%;
+    margin-left: 2%;
+}
+.default3{
+    border: 2px solid grey;
+    padding: 8px;
+    position: absolute;
+    top: 55%;
+    width: 70%;
+    margin-left: 2%;
+}
+.default4{
+    border: 2px solid white;
+    padding: 8px;
+    position: absolute;
+    top: 10%;
+    width: 70%;
+    margin-left: 2%;
+}
+.buttons{
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 115%;
+    margin-left: 4%;
+}
+#login{
+    padding: 5px;
+    width: 100px;
+    position: absolute;
+    left: 80%;
+    top: 12%;
+    display: flex;
+}
+#ask{
+    padding: 5px;
+    width: 100px;
+    position: absolute;
+    left: 89%;
+    top: 12%;
+    display: flex;
+}
+textarea{
+    margin: 3px 0px 0px 3px;
+}

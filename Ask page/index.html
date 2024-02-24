@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar4">
+        <a href="../home page/index.html"><img src="./logo.png" alt="logo" id="LogoPic4"></a>
+        <center><input type="text" id="search4" placeholder="Search Blog OR Query"></center>
+    </div>
+    <h2 class="heading">Create Blog Or Ask Question</h2>
+    <form>
+    <h3>Title</h3>
+    <input type="text" placeholder="Enter Title" id="titleSearch">
+    <h4 class="type">Select Type</h4>
+    <div id="choice1"><input type="radio" name="choice">Blog</div>
+    <div id="choice2"><input type="radio" name="choice">Question</div>
+    <h3 class="select">Select Category</h3>
+    <div id="tick">
+        <input type="checkbox" name="select" class="t1">HTML 
+        <input type="checkbox" name="select" class="t1">CSS 
+        <input type="checkbox" name="select" class="t1">JavaScript
+    </div>
+    <h3 class="selectStatus">Select Status</h3>
+    <div id="status">
+        <input type="radio" name="mark">Active
+        <input type="radio" name="mark">In Active
+    </div>
+    <h3 class="des">Description</h3>
+    <textarea id="ask" placeholder="place your blog or question here"></textarea>
+        <input type="submit" id="postButton" onclick="titleCheck(); selectCheck(); checkbox();">
+    </form>
+        <input type="button" value="Cancel" id="cancelButton" onclick="history.back();">
+    <input type="button" id="logOut" value="Logout"> 
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+.navbar4{
+    width: 100vw;
+    height: 50px;
+    background-color: darkolivegreen;
+}
+#LogoPic4{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+#search4{
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    height: 25px;
+}
+.heading{
+    border-bottom: 2px solid black;
+    padding-bottom: 1%;
+}
+#titleSearch{
+    width: 25%;
+    height: 30px;
+}
+.type{
+    position: absolute;
+    top: 35%;
+}
+#choice1{
+    position: absolute;
+    top: 42%;
+}
+#choice2{
+    position: absolute;
+    top: 42%;
+    left: 7%;
+}
+.select{
+    position: absolute;
+    left: 70%;
+    top: 15%;
+}
+#tick{
+    position: absolute;
+    top: 22%;
+    left: 70%;
+}
+.selectStatus{
+    position: absolute;
+    top: 37%;
+    left: 70%;
+}
+#status{
+    position: absolute;
+    left: 70%;
+    top: 45%;
+}
+.des{
+    position: absolute;
+    top: 50%;
+}
+#ask{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    width:60%; 
+    height:20%;
+   
+}  
+#postButton{
+    position: absolute;
+    top: 83%;
+    left: 5%;
+}
+#cancelButton{
+    position: absolute;
+    top: 83%;
+    left: 10%;
+}
+#logOut{
+    position: absolute;
+    top: 15%;
+    left: 90%;
+}
